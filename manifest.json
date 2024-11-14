@@ -3,7 +3,7 @@
     "name": "Tab Manager",
     "version": "1.0",
     "action": {
-        "default_popup": "default.html",
+        "default_popup": "popup.html",
         "default_icon": "Thumbnail.png"
     }
 }

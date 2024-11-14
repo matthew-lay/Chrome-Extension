@@ -6,10 +6,6 @@
         "default_popup": "popup.html",
         "default_icon": "Thumbnail.png"
     },
-    "host_permissions": [
-        "https://developer.chrome.com/*"
-    ],
-    "permissions": [
-        "tabGroups"
-    ]
+    "host_permissions": ["https://developer.chrome.com/*"],
+    "permissions": ["tabGroups"]
 }

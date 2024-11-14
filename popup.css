@@ -1,5 +1,7 @@
 body {
     width: 20rem;
+    background-color: #303030;
+    color:rgb(216, 192, 162);
   }
   
   ul {
@@ -12,13 +14,32 @@ body {
     padding: 0.25rem;
   }
   li:nth-child(odd) {
-    background: #80808030;
+    background: #80808020;
   }
   li:nth-child(even) {
-    background: #ffffff;
+    background: #ffffff20;
   }
   
   h3,
   p {
     margin: 0;
+  }
+
+  p {
+    color:rgb(201, 171, 134)
+  }
+
+  button {
+    background-color: #80808020;
+    color: rgb(216, 192, 162);
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
+  .rounded-div {
+    border-style: solid;
+    border-radius: 2%;
+    border-color: rgb(196, 151, 96);
+    border-width: 2px;
+    padding:10px
   }
